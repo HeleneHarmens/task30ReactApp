@@ -1,0 +1,41 @@
+.Genres {
+    margin: 10px;
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    width: 97vw;
+  }
+
+#genreInfo_id {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+#genreList_id {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+}
+
+#textDiv_id {
+    margin: 10px;
+}
+
+#imgDiv_id {
+    margin-top: 15px;
+}
+
+#synopsisText {
+    font-size: 0.8em;
+}
+
+#genreInfo_id {
+  background: #aaa;
+  overflow-y: scroll;
+}
+
+
