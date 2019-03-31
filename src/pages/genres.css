@@ -23,6 +23,7 @@
 
 #textDiv_id {
     margin: 10px;
+    text-align: left;
 }
 
 #imgDiv_id {
@@ -38,4 +39,9 @@
   overflow-y: scroll;
 }
 
+#genres {
+    background-color: rgb(6, 96, 126);
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 

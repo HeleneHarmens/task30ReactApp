@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Route, BrowserRouter as Router } from 'react-router-dom'
 import './index.css';
-import Navigationbar from "./components/navbar"
 import App from './App';
-import Home from './pages/home'
 import Genres from './pages/genres'
 import Users from './pages/users'
+import MyMap from './pages/map'
 
 import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.css';
+
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 
@@ -21,6 +21,7 @@ const routing = (
         <Route exact path="/" component={App} />
         <Route path="/users" component={Users} />
         <Route path="/genres" component={Genres} />
+        <Route path="/map" component={MyMap} />
       </div>
     </Router>
 

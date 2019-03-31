@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-//import './home.css';
-import animeBoxes from "../components/animeBoxes"
 
 
 class AnimeCategories extends Component {

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-//import './users.css';
+import './users.css';
 import Navigationbar from "../components/navbar"
 
 class Users extends Component {
+    
     state = {
 
     }
@@ -13,7 +14,6 @@ class Users extends Component {
                 <Navigationbar></Navigationbar>
                 <div className="Users">
                     <h2>Users</h2>
-
                 </div >
             </React.Fragment>
 
