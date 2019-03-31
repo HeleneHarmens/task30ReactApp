@@ -17,7 +17,7 @@ class Genres extends React.Component {
             prevChosenGenre: null
         };
     }
-
+    
     getCategory(chosenGenre) {
         console.log("Now showing: " + chosenGenre)
         fetch("https://kitsu.io/api/edge/genres")

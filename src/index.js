@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // components takes precedence over default styles.
 
 const routing = (
-    
+    // Routing
     <Router>
       <div>
         <Route exact path="/" component={App} />
