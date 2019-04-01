@@ -33,12 +33,22 @@ class MyLeafletMap extends Component  {
             easeLinearity={0.35}
             >
             <TileLayer
-            url='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+              url='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
             />
-            <Marker position={[35.6, 139.8]}>
-            <Popup>
-                Popup for any custom information.
-            </Popup>
+            <Marker position={[35.652832, 139.839478]}>
+              <Popup>
+                  This is the Capital Tokyo!
+              </Popup>
+            </Marker>
+            <Marker position={[35.691070569, 139.568922724]}>
+              <Popup>
+                Ghibli Museum
+              </Popup>
+            </Marker>
+            <Marker position={[35.610208, 139.573448]}>
+              <Popup>
+                Fujiko·F·Fujio Museum
+              </Popup>
             </Marker>
         </LeafletMap>
     );
