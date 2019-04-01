@@ -21,7 +21,7 @@ class MyLeafletMap extends Component  {
 
         return (
             <LeafletMap
-            center={[35.6, 139.8]}
+            center={[35.652832, 139.839478]}
             zoom={1}
             maxZoom={30}
             attributionControl={true}

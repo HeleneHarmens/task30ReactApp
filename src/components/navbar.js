@@ -15,7 +15,7 @@ class Navigationbar extends React.Component {
 
             <>
                 <header className="App-header">
-                    <h1>Anime Webpage - Helene</h1>
+                    <h1 id="topNavTitle">Anime Webpage</h1>
                 </header>
                 <Navbar bg="dark" variant="dark">
                     

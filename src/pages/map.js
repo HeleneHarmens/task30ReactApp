@@ -13,7 +13,7 @@ class MyMap extends Component  {
     render() {
 
         const infoText = ['The word anime is the Japanese term for animation.', 
-                <br />, 'Japanese animation began in the early 20th century.'];
+                <br />, 'Zoom closer to the markers to see some places worth a visit!'];
         
         return (
             <React.Fragment>
